@@ -1,3 +1,4 @@
+set FFMPEG_PATH=c:\ffmpeg\bin
 ::ffmpeg -i %1 -c copy -map 0 -segment_time 00:01:00 -f segment output%03d.mp4
 
 ::ffmpeg -i %1 -c copy -map 0 -segment_time 00:01:00 -f segment -reset_timestamps 1 output%03d.mp4
